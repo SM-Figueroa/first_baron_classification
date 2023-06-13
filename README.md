@@ -94,4 +94,8 @@ The resulting p-value from this permutation test is **0.552** meaning we fail to
 we cannot conclude that the model's ability to classify whether or not a team got the first baron is unfairly distributed across the teams playing 
 on red and blue sides of the map.
 
+----------------------------------------------
+
+Ultimately, the information from this dataset helped us build a decent model for predicting which team will get the first baron in competitive league of legends scenarios. This analysis supports that the features included in this model are relevant factors to objective control and, as we all know, objective control is the key to league of legends. Thanks for reading.
+
 # FIN.
