@@ -11,8 +11,9 @@ can be found on a previous project [here](https://sm-figueroa.github.io/LOL_cham
 
 The purpose of this classification analysis is to solve the following problem: can we predict which team kills the first baron in a match based on pre-game data and data from the first 15 minutes of that match? To solve this problem we will develop a binary classification model that, based on a 
 set of features, outputs that a team in a given match either did or did not get the first baron. This corresponds to the column
-labeled **firstbaron** in the dataset. It is worth noting that the baron spawns at 20 minutes into the game in each match so 
-all the data we will be using a features (pre-15 minutes) will be known at the time of prediction. The metric that will be used 
+labeled **firstbaron** in the dataset. This response variable was chosen from this dataset because it allows for both quantitative and categorical variables to be used as features in the model. Additionally, this variable requires us to perform a binary classification, which is a lot simpler than predicting the name of an individual player based on their post game statistics (multiclass classification). With multiple types of features and fewer classes to predict, we will hopefully increase the likelihood of creating a useful model. 
+
+It is worth noting that the baron spawns at 20 minutes into the game in each match so all the data we will be using a features (pre-15 minutes) will be known at the time of prediction. The metric that will be used 
 to evaluate all models in this analysis is the F1-score. This metric was chosen because, in the case of this problem, we value 
 both precision and recall equally and don't want inbalances in our dataset to affect the performance of our model as is often the 
 case when soley using accuracy as a metric. Without further ado, let's start building the models.
