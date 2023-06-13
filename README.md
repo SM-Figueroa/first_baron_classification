@@ -7,9 +7,7 @@ by Sawyer Figueroa (s2figuer@ucsd.edu)
 --------------------------------------
 In this machine learning exploration, I will be performing a classification analysis using a dataset from Oracle’s Elixir 
 which contains game data for all competitive League of Legend’s matches in 2022. The exploratory data analysis of this dataset 
-can be found on another website here:
-
-https://github.com/SM-Figueroa/LOL_champion_balance
+can be found on another website [here](https://github.com/SM-Figueroa/LOL_champion_balance).
 
 The purpose of this classification analysis is to solve the following problem: can we predict which team kills the first baron in a match based on pre-game data and data from the first 15 minutes of that match? To solve this problem we will develop a binary classification model that, based on a 
 set of features, outputs that a team in a given match either did or did not get the first baron. This corresponds to the column
